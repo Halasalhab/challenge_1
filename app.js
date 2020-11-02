@@ -9,16 +9,16 @@ function creatt() {
             var cell = document.createElement('td');
             cell.width = '35px';
             cell.hight = '35px';
-            cell.id = "";
+            cell.id = "x";
             row.appendChild(cell);
-            cell.innerHTML = '';
+            cell.innerHTML = 'x';
         }
         tbl.appendChild(row);
     }
 }
-function bluh() {
-    document.querySelectorAll('tr').forEach(row => row.forEach(cell => { cell.id = "x"; cell.innerHTML = 'x'; }));
-}
+// function bluh() {
+//     document.querySelectorAll('tr').forEach(row => row.forEach(cell => { cell.id = "x"; cell.innerHTML = 'x'; }));
+// }
 //for restarting the game
 // function handleRestartGame() {
 //     gameActive = true;
